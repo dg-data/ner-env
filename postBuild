@@ -1,5 +1,6 @@
 conda activate notebook
 
+jupyter serverextension enable --py nbgitpuller --sys-prefix
 # Install QGrid for plain notebook-server.
 jupyter nbextension enable --py --sys-prefix qgrid
 jupyter nbextension enable --py widgetsnbextension
