@@ -1,1 +1,28 @@
-
+name: jupyter
+channels:
+  - pyviz
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - pandas
+  - geopandas
+  - folium
+  - altair
+  - notebook
+  - vega
+  - pyviz::param
+  - pyviz::datashader
+  - pyviz::holoviews
+  - pyviz::geoviews
+  - pyviz::hvplot
+  - bokeh::bokeh
+  - pyviz::panel
+  - xlrd
+  - python-snappy
+  - numpy
+  - beautifulsoup4
+  - pip
+  - pip:
+      - jupyter-panel-proxy
+      - qgrid
