@@ -19,7 +19,6 @@ dependencies:
   - pyviz::hvplot
   - bokeh::bokeh
   - pyviz::panel
-  - xlrd
   - python-snappy
   - numpy
   - beautifulsoup4
@@ -27,3 +26,4 @@ dependencies:
   - pip:
       - jupyter-panel-proxy
       - qgrid
+      - xlrd==1.2.0
