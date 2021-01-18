@@ -7,7 +7,7 @@ jupyter nbextension enable --py widgetsnbextension
 
 # Install JupyterLab extensions for JupyterLab < 1.10 !
 jupyter labextension install --no-build @jupyter-widgets/jupyterlab-manager  # https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/jupyterlab-manager
-jupyter labextension install --no-build jupyter-matplotlib
+#jupyter labextension install --no-build jupyter-matplotlib
 #jupyter labextension install jupyterlab-jupytext  # https://github.com/mwouts/jupytext/issues/276
 jupyter labextension install qgrid2
 
