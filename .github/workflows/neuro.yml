@@ -11,7 +11,7 @@ jobs:
       with:
         repository: geoai-lab/neurotpr
         path: './NeuroTPR/'
-    - run: cp ./NeuroTPR/PretrainedModel . 
+    - run: cp -r ./NeuroTPR/PretrainedModel ./ 
     - uses: EndBug/add-and-commit@v7.0.0
       with:
         author_name: github-actions
