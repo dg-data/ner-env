@@ -10,7 +10,7 @@ jupyter labextension install --no-build @jupyter-widgets/jupyterlab-manager  # h
 #jupyter labextension install --no-build jupyter-matplotlib
 #jupyter labextension install jupyterlab-jupytext  # https://github.com/mwouts/jupytext/issues/276
 jupyter labextension install qgrid2
-
+jupyter labextension install ipyleaflet
 ## Enable plugins tab, to view installed versions.
 #
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension
