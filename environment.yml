@@ -23,4 +23,4 @@ dependencies:
     - arcgis==1.8.3
     - json-lines
     - git+https://www.github.com/keras-team/keras-contrib.git
-    - neuroptr
+    - neurotpr
