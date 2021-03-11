@@ -12,14 +12,15 @@ dependencies:
   - numpy
   - beautifulsoup4
   - geopy
-  - facebook-scraper
   - spacy==2.1.8
-  - fastai==1.0.60
   - scikit-image==0.15.0
-  - arcgis==1.8.3
-  - json-lines
   - tensorflow==1.15.0
-  - git+https://www.github.com/keras-team/keras-contrib.git
-  - neuroptr
   - ipyleaflet
   - pip
+  - pip:
+    - facebook-scraper
+    - fastai==1.0.60
+    - arcgis==1.8.3
+    - json-lines
+    - git+https://www.github.com/keras-team/keras-contrib.git
+    - neuroptr
