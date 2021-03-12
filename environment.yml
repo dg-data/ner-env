@@ -6,9 +6,7 @@ dependencies:
   - jupyter
   - nbgitpuller
   - pandas
-  - geopandas
   - notebook
-  - python-snappy
   - numpy
   - beautifulsoup4
   - geopy
