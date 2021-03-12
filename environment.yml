@@ -13,7 +13,7 @@ dependencies:
   - spacy==2.1.8
   - scikit-image==0.15.0
   - tensorflow==1.15.0
-  . keras==2.1.6
+  - keras==2.1.6
   - ipyleaflet
   - pip
   - pip:
