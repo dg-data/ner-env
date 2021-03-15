@@ -12,7 +12,9 @@ jobs:
       with:
         repository: dg-data/nb
         path: './nb/'
-    - run: cp -r ./nb/NERmap.ipynb ./
+    - run: cp ./nb/NERmap.ipynb ./
+    - run: rm -r ./nb
+    - run: cp ./NERmap.ipynb ./nb/
     - name: update jupyter dependencies with repo2docker
       uses: machine-learning-apps/repo2docker-action@master
       with:
