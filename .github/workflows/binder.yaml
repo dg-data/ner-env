@@ -14,7 +14,7 @@ jobs:
         path: './nb/'
     - run: cp ./nb/NERmap.ipynb ./
     - run: rm -r ./nb
-    - run: cp ./NERmap.ipynb ./nb/NERmap.ipynb
+    - run: mkdir -p ./nb && cp ./NERmap.ipynb $_
     - name: update jupyter dependencies with repo2docker
       uses: machine-learning-apps/repo2docker-action@master
       with:
