@@ -7,7 +7,7 @@ jobs:
 
     - name: checkout files in repo
       uses: actions/checkout@main
-    - run: mkdir -p ./nb && touch ./nb/NERmap.ipynb
+    
     - name: update jupyter dependencies with repo2docker
       uses: machine-learning-apps/repo2docker-action@master
       with:
