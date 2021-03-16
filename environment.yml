@@ -5,6 +5,7 @@ channels:
 dependencies:
   - jupyter
   - nbgitpuller
+  - appmode
   - pandas
   - notebook
   - numpy
