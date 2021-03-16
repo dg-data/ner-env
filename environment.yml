@@ -25,3 +25,4 @@ dependencies:
     - git+https://www.github.com/keras-team/keras-contrib.git
     - neurotpr
     - h5py<3.0.0
+    - silence-tensorflow
