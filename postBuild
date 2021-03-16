@@ -1,3 +1,4 @@
+#!/bin/bash
 conda activate notebook
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
@@ -15,3 +16,5 @@ echo '{
     "enabled": true
 }
 ' >> ~/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension/plugin.jupyterlab-settings
+mkdir -p ~/.jupyter/custom
+mv custom.js ~/.jupyter/custom/.
